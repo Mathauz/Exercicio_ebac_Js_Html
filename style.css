@@ -1,0 +1,44 @@
+
+/* Estilização do formulário */
+#meu-formulario {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background: linear-gradient(to bottom, #2196F3, #005C9D);
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilização dos campos numéricos */
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #333;
+}
+
+/* Estilização do botão */
+button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #005C9D;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #00487A;
+}
+
+/* Mensagem de validação */
+#mensagem {
+    font-weight: bold;
+    margin-top: 10px;
+    color: #fff;
+}
